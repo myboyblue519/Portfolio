@@ -1,0 +1,46 @@
+@use "variables" as *;
+
+.skills{
+    .pageInfo {
+		.styledPageName {
+		  position: relative;
+		  left: -10px;
+		  bottom: 145px;
+          margin: 0;
+          h5{
+            margin: 0;
+          }
+			   
+		}
+		.title {
+			width: 720px;
+			position: relative;
+			bottom: 45px;
+			left: 150px;
+			h2{
+				font-size: 3rem;
+			}
+	}
+	.subTitles {
+        position: relative;
+        bottom: 15px;
+        left: -120px;
+        width: 385px;
+      
+		h3 {
+			font-family: 'Times New Roman', Times, serif;
+			font-style: italic;
+			font-weight: 100;
+		}
+		h4{
+			text-transform: uppercase;
+		}
+		p{
+			font-size: .8rem;
+			font-weight: 100;
+			width: 300px;
+		}
+}
+}
+}
+    

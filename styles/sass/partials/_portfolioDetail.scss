@@ -1,0 +1,83 @@
+@use "variables" as *;
+
+.headline {
+	position: absolute;
+	top: -100px;
+	right: 0px;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: rgb(114, 119, 120, .4)
+}
+
+.detail {
+	margin-top: 145px;
+
+    .box {
+        padding: 10px;
+        display: flex;
+        margin: 5px auto;
+        img{
+            height: 180px;
+             width: 320px;
+        } 
+        
+            p{
+                margin: 0 20px;
+                color: #000;
+                width: 500px;
+                height: 100px;
+            }
+        
+    }
+    
+}
+
+    
+
+// .portfolio {
+//     .pageInfo{
+//         .styledPageName {
+//             position: relative;
+//             left: 110px;
+//             bottom: 145px;
+//             margin: 0;
+//             h5{
+//               margin: 0;
+//             }
+                 
+//           }
+//         .title{
+//             width: 200px;
+//             position: relative;
+//             bottom: 70px;
+//             left: 65px;
+//             h2{
+//                 font-size: 3rem;
+//             }
+//         }
+//         .subHeads {
+//             width: 600px;
+//             position: relative;
+//             bottom: 10px;
+//             left: 130px;
+//             h3{
+//                 font-size: 1.5rem;
+//                 font-family: 'Times New Roman', Times, serif;
+//                 font-style: italic;
+//                 margin: 0;
+//             }
+        
+//             h4 {
+//                 font-weight: 900;
+//                 text-transform: uppercase;
+//                 font-size: 1.6rem;
+//                 margin-top: 5px;
+//             }
+//             p{
+//                 font-size: .8rem;
+//                 font-weight: 100;
+//             }
+//         }
+   
+//     }
+// }

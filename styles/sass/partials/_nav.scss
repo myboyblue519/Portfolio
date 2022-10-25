@@ -1,0 +1,37 @@
+@use "variables" as *;
+.navBarLinks {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    background-color:$fColor;
+    color: $fourColor;
+    text-align: center;
+    height: 100vh;
+    ul{
+        list-style: none;
+        padding: 0;
+        li{
+            // height: 10%;
+            margin: 25px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-weight: 300;
+            text-transform: uppercase;
+            height: 30%;
+        }
+    }
+}
+a{
+    color: $fourColor;
+
+    display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-decoration: none;
+            margin:0px 10px;
+                :hover{
+                color: white;
+                }
+}
+

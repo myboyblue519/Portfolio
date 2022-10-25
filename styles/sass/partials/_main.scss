@@ -1,0 +1,29 @@
+@use "variables" as *;
+.index{
+.pageInfoIndex {
+	position: relative;
+    left: 332px;
+    bottom: 366px;
+	width: 881px;
+	height: 400px;
+	margin: 2rem auto;
+	display: flex;
+	flex-direction: column;
+    h1{
+        font-size: 3.4rem;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    h3 {
+        margin-bottom: 10px;
+        font-style: italic;
+        font-family: initial;
+    }
+    h4 {
+        font-weight: 300;
+        margin-top: 10px;
+    }
+}
+}
+
+

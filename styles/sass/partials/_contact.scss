@@ -1,0 +1,50 @@
+@use "variables" as *;
+
+
+.contact {
+           .pageInfo{
+            .styledPageName {
+                position: relative;
+                left: 110px;
+                bottom: 145px;
+                margin: 0;
+                h5{
+                  margin: 0;
+                }
+                     
+              }
+            .title{
+                width: 200px;
+                position: relative;
+                bottom: 70px;
+                left: 65px;
+                h2{
+                    font-size: 3rem;
+                }
+            }
+            .subHeads {
+                width: 600px;
+                position: relative;
+                bottom: 10px;
+                left: 130px;
+                h3{
+                    font-size: 1.5rem;
+                    font-family: 'Times New Roman', Times, serif;
+                    font-style: italic;
+                    margin: 0;
+                }
+            
+                h4 {
+                    font-weight: 900;
+                    text-transform: uppercase;
+                    font-size: 1.6rem;
+                    margin-top: 5px;
+                }
+                p{
+                    font-size: .8rem;
+                    font-weight: 100;
+                }
+            }
+       
+           }
+        }

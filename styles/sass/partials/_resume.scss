@@ -1,0 +1,40 @@
+@use "variables" as *;
+
+
+.resume {
+	.pageInfo {
+		.styledPageName {
+		  position: relative;
+		  left: 65px;
+		  bottom: 145px;
+			   
+		}
+		.title {
+			width: 720px;
+			position: relative;
+			bottom: 45px;
+			left: 95px;
+			h2{
+				font-size: 3rem;
+			}
+	}
+	.pageIntros {
+		position: relative;
+		bottom: 15px;
+		left: 190px;
+		h3 {
+			font-family: 'Times New Roman', Times, serif;
+			font-style: italic;
+			font-weight: 100;
+		}
+		h4{
+			text-transform: uppercase;
+		}
+		p{
+			font-size: .8rem;
+			font-weight: 100;
+			width: 300px;
+		}
+}
+}
+}

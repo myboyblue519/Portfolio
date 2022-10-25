@@ -1,0 +1,59 @@
+@use "variables" as *;
+
+header {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    width: 30%;
+    text-align: center;
+    
+    .nameTitleIcons {
+        margin: 40px 0;
+    }
+
+    h2{
+        text-transform: uppercase;
+        color: $fColor;
+        font-weight: 900;
+        margin: 0;
+    }
+    h3{
+        font-size: 1.2rem;
+        font-weight: 300;
+        margin: 0;
+    }
+}
+.callingCard {
+    
+    // background-image: url("../assets/art-ga51c2f7a2_1920.png");
+    width: 65%;
+    color: $fourColor;
+    display: flex;
+    flex-direction: column;
+    p{
+        font-weight: 500;
+        text-align: center;
+        margin: 10px 5px;
+        font-size: .8rem;
+        z-index: 10;
+    }
+
+}
+
+.picture{
+    margin:40px 40px 10px;
+    width: 180px;
+    height: 180px;
+    background-color: $sColor;
+}
+
+button {
+    background-color: $fColor;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin: 0 25px;
+    font-size: .8rem;
+    border: none;
+}
