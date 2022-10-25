@@ -348,7 +348,7 @@ button {
   padding: 0;
 }
 .navBarLinks ul li {
-  margin: 25px 0;
+  margin: 10px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -719,9 +719,14 @@ main .title {
     height: 520px;
     width: 860px;
   }
+  .boxGraphic {
+    position: relative;
+    bottom: 100px;
+    left: 85px;
+  }
   .index .pageInfoIndex {
     position: relative;
-    left: 265px;
+    left: 175px;
     bottom: 465px;
   }
   .index button {
@@ -747,22 +752,48 @@ main .title {
   }
 }
 @media (max-width: 1100px) {
-  .header {
+  .callingCard {
     display: none;
   }
-  .header, :active {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .picture {
+    display: none;
   }
-  .toggleButton {
+  main .container .boxGraphic {
+    border: 20px solid rgb(175, 175, 175);
+    height: 390px;
+    width: 450px;
+    position: relative;
+    bottom: 180px;
+    left: 30px;
+  }
+  main .container .pageInfo {
+    position: relative;
+    left: -50px;
+    bottom: 556px;
+    width: 881px;
+    height: 400px;
+    margin: 2rem auto;
+    text-transform: none;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  main .container .pageInfo .title {
+    display: none;
+  }
+  .skills .pageInfo .subTitles {
     position: relative;
-    top: -495px;
-    left: -50px;
-    display: flex;
-    color: red;
+    bottom: 15px;
+    left: 110px;
+    width: 385px;
+  }
+}
+@media (max-width: 750px) {
+  a {
+    font-size: 0.8rem;
   }
 }
